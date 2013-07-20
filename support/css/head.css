@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body {	margin:0; font-family: Verdana,"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px;background:url(../images/body_bg.png) repeat-x left top}
+
+.login_title{width:185px;height:12px;line-height:12px;padding:15px 30px 0 0;color:#5b5959;float:right}
+.login_title .login{color:#5c6bf1;padding-left:10px}
+
+/*travelworld_head*/
+.travel_header{width:960px;height:79px;margin:0 auto;background:url(../images/travel_nav_bg.png) no-repeat right 10px;padding-bottom:7px}
+.travel_logo{width:209px;height:79px;float:left;background:url(../images/travel_logo.png) no-repeat 25px 15px}
+.travel_title{padding:50px 0 0 206px;font-size:18px;font-weight:bold;float:left;overflow:hidden}
+
+/*cityenv_head*/
+.city_header{width:960px;height:79px;margin:0 auto;background:url(../images/city_nav_bg.png) no-repeat right 22px;padding-bottom:7px}
+.city_logo{width:121px;height:79px;float:left;background:url(../images/city_logo.png) no-repeat 25px 15px}
+.city_title{padding:50px 0 0 256px;font-size:18px;font-weight:bold;float:left;overflow:hidden}
+
+/*peoplepictorial_head*/
+.people_header{width:960px;height:79px;margin:0 auto;background:url(../images/nav_bg.png) no-repeat right 30px;padding-bottom:7px}
+.people_logo{width:170px;height:79px;float:left;background:url(../images/logo.png) no-repeat 25px 15px}
+.people_title{padding:50px 0 0 216px;font-size:18px;font-weight:bold;float:left;overflow:hidden}
+
+/*IereadFinance_head*/
+.finance_header{width:960px;height:79px;margin:0 auto;background:url(../images/finance_nav_bg.png) no-repeat right 28px;padding-bottom:7px}
+.finance_logo{width:200px;height:79px;float:left;background:url(../images/finance_logo.png) no-repeat 25px 15px}
+.finance_title{padding:50px 0 0 210px;font-size:18px;font-weight:bold;float:left;overflow:hidden}
+
+/*Iereadlzh*/
+.lzh_header{width:960px;height:79px;margin:0 auto;}
+.lzh_logo{width:180px;height:79px;float:left;background:url(../images/ieread_logo.png) no-repeat 25px 15px}
+.lzh_title{padding:50px 0 0 190px;font-size:18px;font-weight:bold;float:left;overflow:hidden}
+
+/*miai*/
+.miai_header{width:960px;height:79px;margin:0 auto;}
+.miai_logo{width:275px;height:79px;float:left;background:url(../images/miai_logo.png) no-repeat 25px 5px}
+.miai_title{padding:50px 0 0 150px;font-size:18px;font-weight:bold;float:left;overflow:hidden}
+
+/*
+.nav{line-height:14px;font-size:14px;padding:28px 158px 1px 0;color:#606166;font-weight:bold;float:right;}
+.nav a:hover {color:#5c6bf1;}
+.discuss{color:#606166;}*/

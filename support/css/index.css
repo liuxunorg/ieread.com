@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body {	margin:0; font-family: Verdana,"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px;background:url(../images/body_bg.png) repeat-x left top}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,button,textarea,blockquote,table,th,td,p,img {
+padding:0; margin:0;}
+dl,dt,dd,ul,li	{	margin:0; padding:0; list-style:none; float:left}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+
+
+/*center*/
+.center{width:960px;margin:0 auto;}
+.top_tips{width:960px;height:31px;background:url(../images/menu_bg.png) repeat-x left top;position:relative}
+.soso{width:82px;height:12px;line-height:12px;padding:10px 0 0 36px;color:#2f41ee;float:left}
+.tit_page{padding:9px 38px 0 0 ;color:#2f41ee;float:right;}
+.tit_page a{text-decoration:underline;}
+.discuss{height:1629px}
+#discuss{height:976px}/*适应高度*/
+.finance{height:1300px}/*瑞读财经*/
+.lzh{height:1132px}/*Iereadlzh*/
+.discuss ul li {width:934px; height:130px;padding:12px 0 20px 26px; border-bottom:1px solid #b7c0cf; }
+.discuss h4{color:#3e468f;height:30px;font-size:13px;line-height:30px;background:url(../images/img.png) no-repeat 0 13px;padding-left:11px}
+.discuss .comment{padding-left:11px}
+.discuss p{color:#8d8d8e;line-height:22px}
+.discuss .link{color:#a4adff;padding-top:8px;display:block}
+.discuss .answer{padding-top:7px}
+.nav_down{width:960px;height:36px;background:url(../images/menu_bottombg.png) repeat-x left top;position:relative;}
+.mod_page{padding:8px 420px}
+.mod_page a, .mod_page span { background:none repeat scroll 0 0 #fff; font-size:12px; text-align:center; border:1px solid #b7c0cf; padding:0px 6px; display:inline-block; text-decoration:none; vertical-align:middle; line-height:19px; height:19px; margin-right:2px; white-space:nowrap }
+.mod_page a:link, .mod_page a:visited {  text-decoration:none; color:#1f409c; background:#fff;}
+.mod_page a:hover, .mod_page a:active { text-decoration:none; color:#fff; background:#3c88cd; }
+.mod_page .dis { border:1px solid #d5d5d5; cursor:default; font-family:"tahoma"; color:#ccc; display:none; }
+.mod_page .current { background:#e2ebfa; border:none; }
+
+/*foot*/
+.footer{width:960px;height:100px;margin:7px auto;border-top:1px solid #b7c0cf}
+.copyright{text-align:center; line-height:22px;padding-top:16px; font-size:12px;color:#5e6066}
+.copyright a{color:#5e6066}

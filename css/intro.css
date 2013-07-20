@@ -1,0 +1,102 @@
+@charset "utf-8";
+.box { width:960px; background:#ffffff url(../images/intro_1.png) repeat-y; overflow:hidden; }
+.wrapper { background:url(../images/intro_4.png) no-repeat left bottom; min-height:400px; clear:both; overflow:hidden; }
+.col1 { float:left; width:256px; background:url(../images/intro_3.png) no-repeat 0 0; }
+.col2 { float:left; width:704px; }
+.col1 ul { padding-top:24px; }
+.col1 li { line-height:32px; padding:2px 0 2px 43px; font-size:14px; }
+.col1 li a, .col1 li a:visited { display:inline-block; text-decoration:none; }
+.col1 li a:hover { color:#0089fe; }
+.col1 li.on { /*background:url(../images/intro_2.png) no-repeat right 0;*/ }
+.col1 li.on a, .col1 li.on a:visited, .col1 li.on a:hover { background:url(../images/intro_5.png) no-repeat right center; padding-right:10px; color:#0089fe; }
+/* 内容部分 */
+.cot { margin:25px; width:654px; overflow:hidden; }
+.cot h2 { height:38px; padding:0 8px; margin-bottom:16px; line-height:38px; background:#f2f7fc; font-size:16px; font-family:Microsoft YaHei, simsun; clear:both; overflow:hidden; }
+.cot h3 { font-size:14px; padding:0 8px; line-height:24px; background:url(../images/buy_1.png) no-repeat 0 8px; }
+.cot h4 { font-size:14px; padding:0 8px; line-height:24px; }
+.cot p { line-height:24px; margin-bottom:12px; text-align:left; padding:0 8px; }
+.cot p.img { text-align:center; }
+/* .cot img { margin:6px 0; } */
+.cot table { border-collapse:collapse; font-size:12px;/*  margin:6px 0; */ display:block;padding:10px;padding-right:0px;padding-bottom:0px;}
+/* .cot table  tr{margin:3px;float:left;width:609px;w} */
+.cot th { background:#daebf7; border:1px solid #CBE1F4; text-align:center; color:#3d78a5; height:30px; font-size:12px; }
+/* .cot th.fir { background:#ffffff; } */
+.cot td { /*background:#f1f7fc; border:1px solid #CBE1F4; height:18px;font-size:12px;  padding:3px 8px; width:80px; height:80px;*/padding:5px;width:56px;height:56px;}
+.artwork{top:-2.5px;left:-2.5px; position:relative}
+.cot td.fir { /* background:#f3f3f3;  */background:url(../images/tb.gif) no-repeat 0 0;width:56px;height:56px; }
+.cot td.even { background:#ffffff; }
+.cot .ul { list-style-position:inside; list-style-type:disc; padding:0 8px; margin-bottom:18px; }
+.cot .ul li { line-height:24px; }
+.cot .ol { list-style-position:inside; list-style-type:decimal; padding:0 8px; margin-bottom:18px; }
+.cot .ol li { line-height:24px; }
+/* 基本功能 */
+.base_gn .base_list { padding:0 8px; clear:both; float:left; overflow:hidden; }
+.base_gn .base_list li { float:left; width:159px; height:58px; overflow:hidden; }
+.base_gn .base_list li h3 { padding:0; background:none; }
+.base_gn .base_list li.on a, .base_gn .base_list li.on visited, .base_gn .base_list li.on:hover { color:#0089fe; }
+.base_gn .base_list li p { color:#666666; line-height:20px; padding:0; }
+/* 设置与管理、增值服务sub_nav */
+.sub_nav { padding:0 8px; width:666px; clear:both; overflow:hidden; margin-bottom:24px; }
+.sub_nav li { height:38px; line-height:38px; width:200px; font-size:14px; float:left; margin-right:19px; display:inline-block; overflow:hidden; }
+.sub_nav li.on a, .sub_nav li.on a:visited, .sub_nav li.on a:hover { color:#0089fe; }
+/* 市场活动 */
+.activity_month { height:40px; line-height:40px; text-align:center; font-size:14px; margin-bottom:8px; }
+.activity_month span, .activity_month a { margin:0 8px; }
+.activity_month span { color:#888888; }
+.activity_month a.on { color:#0089fe; font-weight:bold; }
+.activity_month span.hot { position:absolute; margin:-18px 0 0 0; }
+.activity_banner { text-align:center; padding:0 0 12px; margin-top:-4px; }
+.activity_tb td { text-align:center; }
+.activity_btn { text-align:center; padding:12px 0; }
+.activity_btn a { margin:0 8px; zoom:1; }
+.case_ul li { float:left; margin-left:5px; }
+/*新增*/
+
+div.lockup.application>a:hover { text-decoration:none; }
+div.application { margin-bottom:2em; zoom:1; }
+div.application:after { display:block; content:" "; float:none; clear:both; height:1px; }
+div.application>div.title a.see-all { display:none; }
+div.screenshots div.content { clear:both; position:relative; width:auto; min-height:320px; max-height:520px; margin:0 14px; padding-bottom:16px; white-space:nowrap; overflow-x:auto; overflow-y:hidden; -webkit-user-select:none; }
+div.screenshots div.content:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+div.screenshots div.content>div { position:relative; width:2000px; zoom:1; }
+div.screenshots div.content::-webkit-scrollbar {
+height:8px;
+}
+div.screenshots div.content::-webkit-scrollbar-track:horizontal {
+-webkit-border-image:url(../images/horiz_track_well.png) 0 8 0 8;
+border-width:0 8px;
+}
+div.screenshots div.content::-webkit-scrollbar-thumb:horizontal {
+-webkit-border-image:url(../images/horiz_track_thumb.png) 0 8 0 8;
+border-width:0 8px;
+}
+div.screenshots div.content>div:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+div.screenshots div.content>div>div.lockup { float:left; width:auto; margin:0 13px 0 4px; padding:0; }
+div.screenshots div.content>div>div. lockup:last-child {
+margin-left:0;
+}
+div.screenshots div.content>div>div.lockup>img { margin:0 3px; border:1px solid #fff; -webkit-box-shadow:0 3px 5px rgba(0, 0, 0, 0.3); -moz-box-shadow:#999 0 3px 5px; border-color:#a2a2a2\9; }
+div.screenshots div.content .control { clear:both; margin:16px 0 0 5px; padding:0; position:static!important; height:9px; width:98%!important; background:url(../images/track_well.gif) no-repeat 0 0; }
+div.screenshots div.content .control .control_cap { background:url(../images/track_well.gif) no-repeat 100% 0; width:100%; height:100%; padding-left:3px; position:relative; left:3px; }
+div.screenshots div.content .control .scroll { background-color:#08C; cursor:pointer; position:relative; width:20%; height:9px; background:url(../images/track_thumb.png) no-repeat 0 0; margin-left:-6px; }
+div.screenshots div.content .control .scroll_cap { background:url(../images/track_thumb.png) no-repeat 100% 0; width:100%; height:100%; padding-left:3px; position:relative; left:3px; cursor:pointer!important; }
+div.screenshots>div.title>h2 { float:left; margin-left:18px; margin-bottom:10px; margin-top:10px; }
+div.screenshots>div.title>div.pill { display:block; float:right; }
+div.screenshots>div.title>div.pill>a { display:inline-block; *display:inline;
+height:11px; line-height:11px; margin-right:5px; padding-right:5px; color:#298cda; cursor:pointer; zoom:1; }
+div.screenshots>div.title>div.pill>a.first { border-right:1px solid #474747; }
+div.screenshots>div.title>div.pill>a:hover { text-decoration:none; }
+div.screenshots>div.title>div.pill>a.active { color:#474747; }
+div.screenshots>div.toggle div.content>div { width:2000px; }
+div.screenshots>div.toggle div.content.ipad { margin-top:15px; overflow:hidden; display:none; }
+div.lockup.application.small div.artwork>img.artwork { border:none; -webkit-box-shadow:none; -moz-box-shadow:none;padding:0;margin:0; }
+div.lockup.application.small div.artwork>span.mask { width:102px; height:103px; background:url(../images/mask100blue.png) 0 0 no-repeat; }
+#content .track-list table tr td span.episode-info { display:block; float:right; width:19px; height:19px; background:url(../images/description_i.png) 0 -19px no-repeat; }
+#content .track-list table tr td span.episode-info:hover { cursor:pointer; background-position:0 0; }
+div.primary-blurb, div.product-review.blurb { padding-bottom:0; }
+div.primary-blurb p, div.product-review.blurb p { margin-bottom:0; }
+div.lockup-container.podcast.large { margin-bottom:30px; }
+/* div.artwork:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; position: relative; width:80px;}
+ */
+/*  img.artwork { height: 60px; width: 60px; border: medium none; box-shadow: none; position: relative; z-index: 0; max-width: 190px; } */
+/* span.mask { background: url(../images/mask60.png) no-repeat; height: 63px; width: 62px; display: block; margin-left: 25.5px; position:absolute; margin-top: -67px; z-index: 1; } */

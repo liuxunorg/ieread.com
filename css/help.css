@@ -1,0 +1,59 @@
+@charset "utf-8";
+.box { width:960px; background:#ffffff url(../images/help_1.png) repeat-y; overflow:hidden;}
+.wrapper { background:url(../images/help_4.png) no-repeat left bottom; min-height:400px; clear:both; overflow:hidden;}
+.col1 { float:left; width:256px; background:url(../images/help_3.png) no-repeat 0 0;}
+.col2 { float:left; width:704px;}
+.col1 ul { padding-top:24px; padding-bottom:24px;}
+.col1 li { line-height:32px; padding:2px 0 2px 43px; font-size:14px;}
+.col1 li a, .col1 li a:visited { display:inline-block; text-decoration:none;}
+.col1 li a:hover { color:#0089fe;}
+.col1 li.on { /*background:url(../images/help_2.png) no-repeat right 0;*/}
+.col1 li.on a, .col1 li.on a:visited, .col1 li.on a:hover { background:url(../images/help_5.png) no-repeat right center; padding-right:10px; color:#0089fe;}
+.col1 .help_sidebar_btn { margin:0 0 12px 42px;}
+/* 内容部分 */
+.cot { margin:25px; width:654px; overflow:hidden;}
+.cot h2 { height:38px; padding:0 8px; margin-bottom:16px; line-height:38px; background:#f2f7fc; font-size:16px; font-family:Microsoft YaHei, simsun; clear:both; overflow:hidden;}
+.cot h3 { font-size:14px; padding:0 8px; line-height:24px; background:url(../images/buy_1.png) no-repeat 0 8px;}
+.cot h4 { font-size:14px; padding:0 8px; line-height:24px;}
+.cot p { line-height:24px; margin-bottom:12px; text-align:left; padding:0 8px;}
+.cot p.img { text-align:center;}
+.cot img { margin:6px 0;}
+.cot table { border-collapse:collapse; font-size:12px; margin:6px 0;}
+.cot th { background:#daebf7; border:1px solid #ffffff; text-align:center; color:#3d78a5; height:30px; font-size:12px;}
+.cot th.fir { background:#ffffff;}
+.cot td { background:#f1f7fc; border:1px solid #ffffff; text-align:left; height:18px; font-size:12px; padding:3px 8px;}
+.cot td.fir { background:#f3f3f3;}
+.cot td.even { background:#ffffff;}
+.cot .ul { list-style-position:inside; list-style-type:disc; padding:0 8px; margin-bottom:18px;}
+.cot .ul li { line-height:24px;}
+.cot .ol { list-style-position:inside; list-style-type:decimal; padding:0 8px; margin-bottom:18px;}
+.cot .ol li { line-height:24px;}
+.cot .subdiv{ margin-left:2em;}
+/* 基本功能 */
+.base_gn .base_list { padding:0 3px; margin-left:6px; clear:both; float:left; overflow:hidden;}
+.base_gn .base_list li { float:left; width:321px; height:30px; overflow:hidden;}
+.base_gn .base_list li h3 { padding:0; background:none;}
+.base_gn .base_list li.on a, .base_gn .base_list li.on visited, .base_gn .base_list li.on:hover { color:#0089fe;}
+.base_gn .base_list li p { color:#666666; line-height:20px; padding:0;}
+/* 设置与管理、增值服务sub_nav */
+.sub_nav { padding:0 8px; width:666px; clear:both; overflow:hidden; margin-bottom:24px;}
+.sub_nav li { height:38px; line-height:38px; width:200px; font-size:14px; float:left; margin-right:19px; display:inline-block; overflow:hidden;}
+.sub_nav li.on a, .sub_nav li.on a:visited, .sub_nav li.on a:hover { color:#0089fe;}
+/*插入代码类样式*/
+.cot .code{
+	padding:15px;
+	width:530px;
+	height:auto;
+	line-height:23px;
+	background-color:#eee;
+	border:1px #ccc solid;
+}
+.cot .blue{
+	color:#0066CC;
+}
+.cot .pink{
+	color:#FF00FF;
+}
+
+.liu_bg{background:url(../images/liuchen.jpg) no-repeat;width:585px;height:38px;margin-left:10px;margin-bottom:15px;padding:0;}
+.liu_bg li{float:left;/* margin-top:12px; */color:#465155;padding:0; line-height:38px}

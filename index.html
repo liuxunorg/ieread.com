@@ -1,79 +1,464 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>ieRead_电子杂志制作软件_iPad电子杂志制作软件_电子杂志建站软件_瑞读官方网站 - ieRead.cn</title>
+<meta name="keywords" content="电子杂志制作,电子杂志制作软件,iPad电子杂志,iPad电子杂志制作软件,电子杂志建站软件." />
+<meta name="description" content="ieRead瑞读网,最先进的在线电子杂志制作软件,能够将多种期刊杂志排版文件自动转换成在电子杂志、iPad电子杂志、iPhone电子杂志、Andriod电子杂志,还能搭建完全属于自己的电子杂志网站." />
+<meta content="广州市瑞都网络科技有限公司,瑞读网,ieRead.cn" name="Author"/>
+<link rel="stylesheet" type="text/css" href="css/global.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<style type="text/css">
+.gn h2 { padding:0px 0 15px 0; }
+</style>
+</head>
+<body>
+<!-- 页头 -->
+  <div class="head">
+    <div class="area">
+      <div id="logo">
+        <a href="http://www.ieread.cn"><img src="images/logo.png" alt="" /></a>
+      </div>
+      <div class="head_right">
+        <span>
+        <a href="http://www.ieread.com" onclick="_mask(); return false;">瑞读门户</a>
+        </span>|<span>
+        <a href="http://www.liuxun.org/" target="_blank">开发博客</a>
+        </span>|<span>
+        <a href="http://www.ieread.com/app/" target="_blank">在线制作系统</a>
+        </span><br />
+        <span class="phone"><em></em>服务热线：4000-555-268</span>
+      </div>
+    </div>
+  </div>
+  <div class="nav">
+    <a class="on" href="index.html"><span></span>首 页</a>
+    <a href="solutions.html"><span></span>产品与服务</a>
+    <a href="case.html"><span></span>成功案例</a>
+    <a href="sales/buy_cost.html"><span></span>产品价格</a>
+    <a href="help/help.html"><span></span>帮助说明</a>
+    <a href="contact.html"><span></span>联系我们</a>
+  </div>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Ieread.com : 瑞读网" />
+<div class="area">
+  <div class="banner" id="banner">
+    <!-- 图片 -->
+    <div class="f_img" id="f_img">
+      <div>
+        <a href="#"><img src="images/banner.jpg" /></a>
+      </div>
+      <div class="dis">
+        <a href="#" target="_blank"><img src="images/banner1.jpg" /></a>
+      </div>
+      <div class="dis">
+        <a href="#" target="_blank"><img src="images/banner3.jpg" /></a>
+      </div>
+      <div class="dis">
+        <a href="#" target="_blank"><img src="images/banner2.jpg" /></a>
+      </div>
+    </div>
+    <!-- 文字 -->
+    <div id="f_text">
+      <div class="nodis"></div>
+      <div class="dis"></div>
+      <div class="dis"></div>
+      <div class="dis"></div>
+    </div>
+    <!-- 按钮 -->
+    <div id="f_bn">
+      <!-- 按钮背景 -->
+      <div class="f_bn_box">
+        <a class="f1" id="focus_bn1"onclick="Mea(0);return false;" onmouseover="clearAuto();"onmouseout="setAuto()">1</a>
+        <a class="f2" id="focus_bn2"onclick="Mea(1);return false;" onmouseover="clearAuto();"onmouseout="setAuto()">2</a>
+        <a class="f2" id="focus_bn3"onclick="Mea(2);return false;" onmouseover="clearAuto();"onmouseout="setAuto()">3</a>
+        <a class="f2" id="focus_bn4"onclick="Mea(3);return false;" onmouseover="clearAuto();"onmouseout="setAuto()">4</a>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="intro">
+    <h2 id="intro_t" class="s2"><span>瑞读产品简介</span></h2>
+    <div class="c">
+      <ol class="intro_ol">
+        <li class="s1">
+          <h3>电子杂志制作</h3>
+          <p>基于云服务设计、无需安装任何软件、通过浏览器进行电子杂志制作与管理。<p>
+        </li>
+        <li class="s2">
+          <h3>网络发布</h3>
+          <p>一键式、将电子杂志发布到瑞读门户或你自己的网站中进行展示。</p>
+        </li>
+        <li class="s3">
+          <h3>多终端阅读</h3>
+          <p>支持PC、iPhone、iPad等多种终端进行原版和多媒体交互方式阅读。<p>
+        </li>
+        <li class="s4">
+          <h3>电子杂志销售系统</h3>
+          <p>多位一体的阅读平台，可以进行电子杂志的定价销售或免费阅读，创造更高的营收。</p>
+        </li>
+        <li class="s5">
+          <h3>电子杂志内容管理系统</h3>
+          <p>专注于期刊行业的强大内容管理系统，是传统纸质媒体数字化升级的首选产品。</p>
+        </li>
+        <li class="s6">
+          <h3>数字图书馆系统</h3>
+          <p>可自行扩展的数字图书管理平台，是企事业单位、院校建立数字化图书馆的首选产品。</p>
+        </li>
+      </ol>
+      <div class="video"><img src="images/why_video.jpg" alt="" /></div>
+    </div>
+  </div> -->
+  </div>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Ieread.com</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/liuxunorg/ieread.com">View on GitHub</a>
-
-          <h1 id="project_title">Ieread.com</h1>
-          <h2 id="project_tagline">瑞读网</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/liuxunorg/ieread.com/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/liuxunorg/ieread.com/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+<script type="text/javascript">try{timePoints[4]=new Date();}catch(e){}</script>
+<div class="area box">
+<div class="gn">
+      <!-- <h2>产品主要特点</h2> -->
+      <h2 class="s2" id="intro_t"><span>产品主要特点</span></h2>
+      <div style="float:left">
+        <ul class="gn_ul">
+          <li class="s1">
+            <h3>云服务</h3>
+            <p>充分利用互联网特性打破地域分割、任何时间、任何地点都使用各种服务。</p>
+          </li>
+          <li class="s2">
+            <h3>自动化</h3>
+            <p>自动化、大批量的将多种排版电子文件转换成电子杂志、网页文章和画报。</p>
+          </li>
+          <li class="s3">
+            <h3>软件即服务(SaaS)</h3>
+            <p>无需要购买软件，通过租用就可以开展经营活动，也提供离线操作和本地数据存储。</p>
+          </li>
+          <li class="s4">
+            <h3>智能化</h3>
+            <p>通过简单的几步配置就可以根据你的个性化需求，定制你的阅读平台。</p>
+          </li>
+        </ul>
+      </div>
+     <!--  <div>sdfjsdlfjdslfjkk</div> -->
+      <div style="width:230px;float:left;" class="wp">
+      <p style="width:100%;float:left;" class="p1">累计制作期刊总数</p>
+      <div style="text-align:center" class="down_num"><font color="red">354,</font><font color="red" id="total_new">194</font>
+      </div>
+      <p style="width:100%;float:left;" class="p1">当前在线制作用户数</p>
+      <div style="text-align:center" class="down_num"><font id="onlineUser" color="green"></font>
+      </div>
+      <p style="width:100%;float:left;" class="p1">企业用户总数</p>
+      <div style="text-align:center" class="down_num"><font color="green">2,843</font>
+      </div>
+      <p style="width:100%;float:left;margin-top:5px;" class="">
+        <a href="http://www.ieread.com/app/" target="_blank"><img title="点击进入在线制作系统" alt="点击进入在线制作系统" src="images/btn_account.png" class="down_mf"></a>
+      </p>
+    </div>
+    </div>
+  <div class="col1">
+    <!-- <div class="gn">
+      <h2>产品主要特点</h2>
+      <h2 class="s2" id="intro_t"><span>产品主要特点</span></h2>
+      <ul class="gn_ul">
+        <li class="s1">
+          <h3>云服务</h3>
+          <p>充分利用互联网特性打破地域分割、任何时间、任何地点都使用各种服务。</p>
+        </li>
+        <li class="s2">
+          <h3>自动化</h3>
+          <p>自动化、大批量的将多种排版电子文件转换成电子杂志、网页文章和画报。</p>
+        </li>
+        <li class="s3">
+          <h3>软件即服务(SaaS)</h3>
+          <p>无需要购买软件，通过租用就可以开展经营活动，也提供离线操作和本地数据存储。</p>
+        </li>
+        <li class="s4">
+          <h3>智能化</h3>
+          <p>通过简单的几步配置就可以根据你的个性化需求，定制你的阅读平台。</p>
+        </li>
+      </ul>
+    </div> -->
+    <div class="media">
+          <h2><span class="t">产品视频演示</span>
+        </span></h2>
+        <p style="padding: 10px 55px;background:#000;margin:15px 10px 0 0"><embed src="http://www.tudou.com/v/IgvJ-vifWCE/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="560" height="480" ><br></p>
+    </div>
+        <div class="news">
+      <a href="http://www.ieread.com" target="_blank"><img src="images/ued_ipad_ad.jpg" /></a>
+      </a>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    <div class="case">
+      <h2><span class="t">成功案例</span><span class="more">
+        <a href="/case/" target="_blank">更多</a>
+        </span></h2>
+      <ul class="case_ul">
+        <li class="s1">
+          <a href="/case.html" target="_blank"><img src="images/index1.gif" alt="南方电网" /></a>
+          <p>南方电网重点建设的数字图书馆。容纳超过240万份书籍、资料和研究报告，为30万名员工提供学习和交流。</p>
+        </li>
+        <li class="s2">
+          <a href="#" target="_blank"><img src="images/index8.gif" alt="中国经营报" /></a>
+          <p>携手传统媒体，构建网络阅读综合平台。这种传统媒体与网络的深度合作，将可能形成新的媒体业态。</p>
+        </li>
+        <li class="s3">
+          <a href="#" target="_blank"><img src="images/index4.gif" alt="" /></a>
+          <p>《新财富》：“数字媒体是个工具，并不是新媒体才可以用，我们一样可以用，而且可以用得更好。”</p>
+        </li>
+      </ul>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Ieread.com maintained by <a href="https://github.com/liuxunorg">liuxunorg</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="user">
+      <h2><span class="t">我们的客户</span>
+        <span class="more">
+        <a href="#" target="_blank">更多</a>
+        </span>
+      </h2>
+      <ul class="case_ul">
+        <li><img src="images/user_17.jpg" alt="" /></li>
+        <li><img src="images/user_1.jpg" alt="" /></li>
+        <li><img src="images/user_4.jpg" alt="" /></li>
+        <li><img src="images/user_5.jpg" alt="" /></li>
+        <li><img src="images/user_6.jpg" alt="" /></li>
+        <li><img src="images/user_8.jpg" alt="" /></li>
+        <li><img src="images/user_9.jpg" alt="" /></li>
+        <li><img src="images/user_10.jpg" alt="" /></li>
+      </ul>
     </div>
-
+  </div>
+  <div class="col2">
     
+<script type="text/javascript">
+     //第一个计时器  每隔一秒执行  用户生成随机数
+	var timer1 = setInterval(randomTotal, 1000);
+	//第二个计时器  用户改变 total_new innerHTML
+	var timer2;
+	
+	function randomTotal(){
+		var post_freq=GetRound(1,7);//获取1-6之间的随机数  因为第一个计时器已经占用一秒
+		timer2 = setInterval(sethtml, 1000*post_freq);//
+		clearInterval(timer1);//生成随机数后  清空计时器1
+	}
+	function sethtml(){
+		document.getElementById("total_new").innerHTML =parseInt(document.getElementById("total_new").innerHTML)+1;
+		clearInterval(timer2);//执行完修改  然后要清空计时器2
+		timer1 = setInterval(randomTotal, 1000); //重新隔一秒调用计时器1
+	}
 
-  </body>
+    onlineRandom();
+    setInterval(onlineRandom, 3000);
+    function onlineRandom(){
+		var date = new Date();
+		var h = date.getHours();
+		var onlineUser=document.getElementById("onlineUser");
+		//大于等于20:00  小于08:00
+		if(h>=20 || h<8){
+		   onlineUser.innerHTML =GetRound(379,381);
+		}else if(h>=8 && h<12){//大于等于08:00  小于12:00
+		   onlineUser.innerHTML =GetRound(865,869);
+		}else if(h>=12 && h<14){//大于等于12:00  小于14:00
+		   onlineUser.innerHTML =GetRound(540,548);
+		}else if(h>=14 && h<16){//大于等于14:00  小于20:00
+		   onlineUser.innerHTML =GetRound(839,846);
+		}else if(h>=16 && h<18){//大于等于14:00  小于20:00
+		   onlineUser.innerHTML =GetRound(805,811);
+		}else if(h>=18 && h<20){//大于等于14:00  小于20:00
+		   onlineUser.innerHTML =GetRound(650,660);
+		}
+
+	}
+	
+	//生成随机数
+	function GetRound(min,max){
+		return Math.round(Math.random()*(max-min))+min;
+	}
+
+</script>
+    <div class="notes">
+      <h2><span class="t">瑞读公告</span><span class="more">
+        <a href="#" target="_blank">更多</a>
+        </span></h2>
+      <ul>
+      <li>
+          <a href="http://itunes.apple.com/cn/app//id481947382?mt=8" target="_blank">人民画报iPad客户端发布</a>
+        </li>
+        <li>
+          <a href="http://itunes.apple.com/cn/app/id433823659?mt=8" target="_blank">城市环境设计iPad客户端发布</a>
+        </li>
+        <li>
+          <a href="http://itunes.apple.com/cn/app/id431794761?mt=8" target="_blank">旅游世界iPad客户端发布</a>
+        </li>
+      </ul>
+    </div>
+    <div class="help">
+      <h2><span class="t">常见问题</span><span class="more">
+        <a href="#" target="_blank">更多</a>
+        </span></h2>
+      <ul>
+        <li>
+          <a href="help/help.html" target="_blank">电子杂志阅读效果如何？</a>
+        </li>
+        <li>
+          <a href="help/help_magmaker.html" target="_blank">如何使用电子杂志制作软件？</a>
+        </li>
+        <li>
+          <a href="sales/buy_cost5.html" target="_blank">除了支持PC外，支持iPad阅读吗？</a>
+        </li>
+        <li>
+          <a href="sales/buy_cost.html" target="_blank">搭建一套电子杂志网站需要多少钱？</a>
+        </li>
+      </ul>
+    </div>
+        <div class="product">
+      <h2><span class="t">产品导航</span><span class="more">
+        <a href="solutions.html" target="_blank">更多</a>
+        </span></h2>
+      <ul>
+        <li>
+          <a href="solutions.html" target="_blank">电子杂志建站软件</a>
+        </li>
+        <li>
+          <a href="solutions/magmaker.html" target="_blank">电子杂志制作软件</a>
+        </li>
+        <li>
+          <a href="solutions/magreader.html" target="_blank">PC电子杂志软件</a>
+        </li>
+        <li>
+          <a href="solutions/ipad.html" target="_blank">iPad电子杂志软件</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="coop_230_90" style="padding:22px 0 0 10px; height:120px; background:url(images/col2_line.png) no-repeat center top;">
+      <a href="sales/buy_cost3.html" target="_blank"><img src="images/salead.gif" alt="" /></a>
+    </div>
+    <div class="mt">
+      <h2>媒体关注</h2>
+      <ul>
+        <li>
+          <a href="http://tech.hexun.com/2011-07-21/131635029.html" target="_blank">和讯报道</a>
+        </li>
+        <li>
+          <a href="http://www.cb.com.cn/1634427/20110721/245188.html" target="_blank">中国经营报报道</a>
+        </li>
+      </ul>
+    </div>
+        <div class="weibo">
+      <h2>官方微博</h2>
+      <ul class="no_dian">
+        <li class="no_dl"><a href="http://t.sina.com.cn/iereadieread" target="_blank"><img src="images/xinglang_logo.png" title="新浪微博"  alt="新浪微博"/></a></li>
+        <li class="no_dl"><a href="http://t.qq.com/ieread" target="_blank"><img src="images/tengxun_logo.png" title="腾讯微博" alt="腾讯微博" /></a></li>
+        <li class="no_dl"><a href="http://t.163.com/ieread" target="_blank"><img src="images/wangyi_logo.png" title="网易微博" alt="网易微博" /></a></li>
+        <li class="no_dl"><a href="http://t.sohu.com/ieread" target="_blank"><img src="images/sohu_logo.png" title="搜狐微博" alt="搜狐微博" /></a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<iframe name="content_frame" frameBorder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="140" src="foot.html"></iframe>  
+<script type="text/javascript"> 
+var n=0;
+var autoStart;
+var showsPic
+var m=0;
+function sp_focusImg(){
+	if(document.getElementById("f_bn")){
+		showsPic = document.getElementById("f_bn");
+	}
+	if(showsPic){
+		m=showsPic.getElementsByTagName("a").length;
+	}
+}
+function Mea(value){
+	n=value;
+	setBg(value);
+	plays(value);
+	cons(value);
+	changebg(value);
+}
+function setBg(value){
+	for(var i=0;i<m;i++)
+    if(value==i){
+		showsPic.getElementsByTagName("a")[i].className='f1';
+	} 
+	else{	
+		showsPic.getElementsByTagName("a")[i].className='f2';
+	}  
+} 
+function changebg(value){
+	var _intro_t = document.getElementById('intro_t');
+	try{
+		if(_intro_t.filters[0]){
+			_intro_t.filters[0].Apply();
+			_intro_t.filters[0].play();
+		}
+	}
+	catch(e){}
+	for(var i=0;i<m;i++)
+    if(value==i){
+		_intro_t.className='s1';
+	} 
+	else{	
+		_intro_t.className='s2';
+	}  
+} 
+function plays(value){
+	try{
+		with (f_img){
+			filters[0].Apply();
+			for(i=0;i<m;i++)
+				i==value?children[i].style.display="block":children[i].style.display="none"; 
+			filters[0].play(); 		
+		}
+	}
+	catch(e){
+		if(document.getElementById("f_img")){
+			var d = document.getElementById("f_img").getElementsByTagName("div");
+		}
+		for(i=0;i<m;i++)
+			i==value?d[i].className="nodis":d[i].className="dis"; 
+	}
+}
+function cons(value){
+    try{
+		with (f_text){
+			for(i=0;i<m;i++)i==value?children[i].className="nodis":children[i].className="dis"; 
+		}
+	}
+	catch(e){
+		var d;
+		if(document.getElementById("f_text")) { 
+			d=document.getElementById("f_text").getElementsByTagName("div");
+		};
+		if(d){
+			for(i=0;i<m;i++){i==value?d[i].className="nodis":d[i].className="dis";} 
+		}
+	}
+}
+function setAuto(){
+	autoStart=setInterval("auto(n)", 5000);
+}
+function auto(){ 
+	n++;
+	if(n>=m)n=0;
+	Mea(n);
+} 
+function sub(){
+	n--;
+	if(n<0)n=m-1;
+	Mea(n);
+} 
+function clearAuto(){ 
+    try{
+	    clearInterval(autoStart)
+	}
+	catch(err){}
+}
+clearAuto();
+setAuto();
+ 
+sp_focusImg();
+</script>
+
+<!--
+<script type="text/javascript" src="js/Contact.js" charset="gb2312"></script>
+-->
+<P style="display:none"><script src=" http://s23.cnzz.com/stat.php?id=3426210&web_id=3426210" language="JavaScript"></script></script></P>
+
+</body>
 </html>
